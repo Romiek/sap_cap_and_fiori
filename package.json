@@ -1,0 +1,21 @@
+{
+  "name": "sap_cap",
+  "version": "0.0.1",
+  "description": "A monorepo with several samples for CAP.",
+  "author": "romeo",
+  "dependencies": {},
+  "devDependencies": {
+    "sqlite3": "^5.0.2"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "model": "*",
+        "credentials": {
+          "database": "my.db"
+        }
+      }
+    }
+  }
+}
